@@ -1,21 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans:wght@300;600;700&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap:wrap;
     margin: auto;
-    position: relative;
-    height: 50vh;
+    position: absolute;
+    height: 90vh;
+    border: solid;
+}
+.box{
+    
 }
 .estrela img{
-    width: 100vw;
+    width: 98vw;
 }
 .kylo{
     position: absolute;
-    top: 7vh;
+    top: 6vh;
     right: 27vw;
     z-index: 3;
 }
@@ -46,10 +53,13 @@ header{
 .lergiao img{
     width: 10vw;
 }
-.indrodução{
+.indroduçao{
+    display: flex;
+    
     position: relative;
-    height: 70vh;
+    height: 120vh;
     background-color: #FFFFFF;
+    border: solid red;
 }
 .começo{
     display: flex;
@@ -58,18 +68,25 @@ header{
     align-items: center;
     color: white;
     position: absolute;
+    top: -10vh;
+    right: 60vw;
+    z-index: 3;
     background-image: url('./img/strom\ trupe\ red.png');
+    background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
-    width: 30vw;
+    height: 80vh;
+    width: 25vw;
+    border: solid red;
 }
 .começo h2{
+    text-align: center;
     font-size: 50px;
     font-weight: 600;
 }
 .começo p{
+    text-align: center;
     font-size: 15px;
-    font-weight:100;
+    font-weight:200;
 }
 .começo button{
     color:white;
@@ -79,4 +96,21 @@ header{
     border-radius: 5px;
     width: 15vw;
     height: 7vh;
+}
+.robot{
+    position: absolute;
+    border: solid;
+}
+.robot img{
+    width: 30vw;
+}
+.batalha{
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    width: 30vw;
+    height: 30vh;
+}
+.batalha img{
+    width: 20vw;
 }
