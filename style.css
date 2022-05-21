@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    height: 50vh;
+}
+.estrela img{
+    width: 100vw;
+}
+.kylo{
+    position: absolute;
+    top: 7vh;
+    right: 27vw;
+    z-index: 3;
+}
+.kylo img{
+    width: 60vw;
+}
+.star{
+    position: absolute;
+    top: 48vh;
+    right: 59vw;
+}
+.star img{
+    width: 25vw;
+}
+.wars{
+    position: absolute;
+    top: 48vh;
+    right: 15vw;
+}
+.wars img{
+    width: 25vw;
+}
+.lergiao{
+    position: absolute;
+    top: 68vh;
+    right: 16vw;
+}
+.lergiao img{
+    width: 10vw;
+}
+.indrodução{
+    position: relative;
+    height: 70vh;
+    background-color: #FFFFFF;
+}
+.começo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: absolute;
+    background-image: url('./img/strom\ trupe\ red.png');
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 30vw;
+}
+.começo h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.começo p{
+    font-size: 15px;
+    font-weight:100;
+}
+.começo button{
+    color:white;
+    font-size: 30px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 15vw;
+    height: 7vh;
+}
