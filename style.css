@@ -40,3 +40,68 @@ header{
     left: 78%;
     width: 10vw;
 }
+.começe{
+    background-image: url('/img/img\ começe\ a\ jogar.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: absolute;
+    top: 94%;
+    right: 63%;
+    z-index: 6;
+    width: 20vw;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.começe h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.começe p{
+    font-size: 15px;
+    text-align: center;
+}
+.começe button{
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 12vw;
+    height: 7vh;
+    cursor: pointer;
+}
+.fundo{
+    position: absolute;
+    top: 100%;
+    width: 30vw;
+}
+.batalha{
+    position: absolute;
+    width: 20vw;
+    top: 140%;
+    right: 0%;
+}
+.sobre h2{
+    position: absolute;
+    top: 138%;
+    right: 22%;
+}
+.linha{
+    position: absolute;
+    top: 145%;
+    right: 22%;
+    width: 10vw;
+    border: solid 2px;
+}
+.sobre p{
+    position: absolute;
+    top: 150%;
+    right: 22%;
+    width: 30vw;
+    text-align: end;
+}
