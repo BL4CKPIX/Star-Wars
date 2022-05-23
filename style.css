@@ -7,110 +7,36 @@
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    flex-direction: column;
-    flex-wrap:wrap;
-    margin: auto;
-    position: absolute;
-    height: 90vh;
-    border: solid;
-}
-.box{
-    
-}
-.estrela img{
-    width: 98vw;
+    position: relative;
+    background-image: url('./img/fundo\ star\ wars.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 43vw;
+    width: 100%;
+    border: salmon solid;
 }
 .kylo{
+    width: 70vw;
     position: absolute;
-    top: 6vh;
-    right: 27vw;
-    z-index: 3;
-}
-.kylo img{
-    width: 60vw;
+    left: 10%;
+    top: 1%;
+    z-index: 5;
 }
 .star{
     position: absolute;
-    top: 48vh;
-    right: 59vw;
-}
-.star img{
-    width: 25vw;
+    top: 57%;
+    left: 20%;
+    width: 23vw;
 }
 .wars{
     position: absolute;
-    top: 48vh;
-    right: 15vw;
-}
-.wars img{
-    width: 25vw;
+    top: 57%;
+    left: 65%;
+    width: 23vw;
 }
 .lergiao{
     position: absolute;
-    top: 68vh;
-    right: 16vw;
-}
-.lergiao img{
+    top: 75%;
+    left: 78%;
     width: 10vw;
-}
-.indroduçao{
-    display: flex;
-    
-    position: relative;
-    height: 120vh;
-    background-color: #FFFFFF;
-    border: solid red;
-}
-.começo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    position: absolute;
-    top: -10vh;
-    right: 60vw;
-    z-index: 3;
-    background-image: url('./img/strom\ trupe\ red.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 25vw;
-    border: solid red;
-}
-.começo h2{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-}
-.começo p{
-    text-align: center;
-    font-size: 15px;
-    font-weight:200;
-}
-.começo button{
-    color:white;
-    font-size: 30px;
-    background-color: transparent;
-    border: solid 2px white;
-    border-radius: 5px;
-    width: 15vw;
-    height: 7vh;
-}
-.robot{
-    position: absolute;
-    border: solid;
-}
-.robot img{
-    width: 30vw;
-}
-.batalha{
-    position: absolute;
-    top: 0vh;
-    right: 0vw;
-    width: 30vw;
-    height: 30vh;
-}
-.batalha img{
-    width: 20vw;
 }
