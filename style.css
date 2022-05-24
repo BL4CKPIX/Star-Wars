@@ -47,10 +47,10 @@ header{
     background-position: center center;
     position: absolute;
     top: 94%;
-    right: 63%;
+    right: 67%;
     z-index: 6;
     width: 20vw;
-    height: 50vh;
+    height: 65vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -79,29 +79,155 @@ header{
     position: absolute;
     top: 100%;
     width: 30vw;
+    height: 160vh;
 }
 .batalha{
     position: absolute;
-    width: 20vw;
+    width: 21vw;
+    height: 27vh;
     top: 140%;
-    right: 0%;
+    right: 5%;
 }
 .sobre h2{
     position: absolute;
     top: 138%;
-    right: 22%;
+    right: 27%;
 }
 .linha{
     position: absolute;
     top: 145%;
-    right: 22%;
+    right: 27%;
     width: 10vw;
     border: solid 2px;
 }
 .sobre p{
     position: absolute;
-    top: 150%;
-    right: 22%;
+    top: 148%;
+    right: 27%;
     width: 30vw;
     text-align: end;
+}
+.linha-2{
+    position: absolute;
+    top: 190%;
+    right: 5%;
+    width: 70vw;
+    border: solid 2px;
+}
+.estrutura{
+    display: flex;
+}
+.estrutura h2{
+    position: absolute;
+    text-align: end;
+    width: 17vw;
+    height: 15vh;
+    font-size: 35px;
+    font-weight: 800;
+    top: 200%;
+    right: 30% ;
+    border: solid red;
+}
+.estrutura nav{
+    position: absolute;
+    top: 225%;
+    right: 30%;
+}
+.estrutura ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid;
+    height: 35vh;
+    font-weight: 500;
+    font-size: 25px;
+    list-style: none;
+    text-align: end;
+}
+.sifh{
+    position: absolute;
+    top: 195%;
+    right: 50%;
+    width: 40vw;
+}
+.rey{
+    position: absolute;
+    top: 195%;
+    right: 5%;
+    width: 22vw;
+}
+@media only screen and (max-width: 600px){
+    .fundo{
+        width: 70vw;
+        height: 120vh;
+    }
+    .começe{
+        background-image: url('/img/img\ começe\ a\ jogar.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        position: absolute;
+        top: 140%;
+        right: 10%;
+        z-index: 6;
+        width: 60vw;
+        height: 65vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .começe button{
+        width: 25vw;
+    }
+    .batalha{
+        top: 375%;
+        width: 60vw;
+        height: 35vh;
+        right: 10%;
+    }
+    .sobre h2{
+        top: 490%;
+        right: 10%;
+    }
+    .linha{
+        top: 510%;
+        width: 38vw;
+        right: 10%;
+    }
+    .sobre p{
+        top: 520%;
+        right: 10%;
+        width: 60vw;
+    }
+    .linha-2{
+        top: 580%;
+        right: 10%;
+    }
+    .estrutura h2{
+        font-size: 20px;
+        width: 25vw;
+        height: 8vh;
+        top: 600%;
+    }
+    .estrutura nav{
+        top: 630%;
+        right: 25%;
+    }
+    .estrutura ul{
+        font-size: 15px;
+        font-weight: 600;
+        height: 28vh;
+    }
+    .sifh{
+        top: 600%;
+        right: 55%;
+        width: 45vw;
+    }
+    .rey{
+        top: 600%;
+        right: 2%;
+        width: 25vw;
+    }
 }
