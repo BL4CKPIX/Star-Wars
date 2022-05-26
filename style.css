@@ -217,12 +217,31 @@ main h2{
     top: 70%;
     right: 50%;
     color: white;
-    border: solid red;
     width: 30vw;
     height: 40vh;
     background-color: #A53D2F;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
+}
+.borda_cima{
+    position: absolute;
+    top: 0%;
+    right: 82%;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    margin:1vh 0 0 1vw;
+    width: 5vw;
+    height: 5vh;
+}
+.borda_baixo{
+    position: absolute;
+    bottom: 2%;
+    left: 79%;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+    margin:1vh 0 0 1vw;
+    width: 5vw;
+    height: 5vh;
 }
 .graficos:hover{
     opacity: 1;
