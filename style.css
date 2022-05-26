@@ -202,14 +202,55 @@ main h2{
 .main_section img{
     width: 250px;
     height: 200px;
-    
 }
 .poder{
     position: absolute;
     top: 25%;
     right: 45%;
     width: 48.2vw;
-    
+}
+.graficos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    color: white;
+    border: solid red;
+    width: 30vw;
+    height: 40vh;
+    background-color: #A53D2F;
+    opacity: 0;
+    transition: 1s;
+}
+.graficos:hover{
+    opacity: 1;
+}
+.graficos h3{
+    position: absolute;
+    top: 5%;
+    right: 65%;
+    font-size: 25px;
+    width: 10vw;
+}
+.graficos p{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    width: 25vw;
+}
+.graficos button{
+    position: absolute;
+    top: 80%;
+    right: 65%;
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: solid 2px white;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
 }
 @media only screen and (max-width: 600px){
     .fundo{
