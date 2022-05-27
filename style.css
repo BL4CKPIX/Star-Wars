@@ -181,11 +181,11 @@ main{
     position: absolute;
     background-color: #2D2D2D;
     width: 100%;
-    height: 150vh;
+    height: 250vh;
 }
 main h2{
     position: absolute;
-    top: 15%;
+    top: 6%;
     right: 70%;
     color: white;
     font-size: 35px;
@@ -193,40 +193,45 @@ main h2{
 }
 .main_section{
     position: absolute;
-    top: 25%;
-    right: 7.3%;
-    width: 37.7%;
+    top: 12%;
+    right: 3%;
+    width: 45%;
     height: 63vh;
     line-height: 0;
 }
 .main_section img{
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
 }
 .poder{
     position: absolute;
-    top: 25%;
-    right: 45%;
+    top: 12%;
+    right: 48%;
     width: 48.2vw;
+    height: 75.5vh;
 }
 .graficos{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     position: absolute;
-    top: 70%;
-    right: 50%;
+    top: 12%;
+    right: 25.7%;
     color: white;
-    width: 30vw;
-    height: 40vh;
+    width: 22vw;
+    height: 37.7vh;
     background-color: #A53D2F;
-    opacity: 1;
+    opacity: 0;
     transition: 1s;
+    z-index: 1;
+}
+.graficos:hover{
+    opacity: 0.8;
 }
 .borda_cima{
     position: absolute;
     top: 0%;
-    right: 82%;
+    right: 72%;
     border-top:3px solid white;
     border-left:3px solid white;
     margin:1vh 0 0 1vw;
@@ -236,33 +241,30 @@ main h2{
 .borda_baixo{
     position: absolute;
     bottom: 2%;
-    left: 79%;
+    left: 70%;
     border-bottom:3px solid white;
     border-right:3px solid white;
     margin:1vh 0 0 1vw;
     width: 5vw;
     height: 5vh;
 }
-.graficos:hover{
-    opacity: 1;
-}
 .graficos h3{
     position: absolute;
     top: 5%;
     right: 65%;
-    font-size: 25px;
-    width: 10vw;
+    font-size: 20px;
+    width: 5vw;
 }
 .graficos p{
     position: absolute;
-    top: 45%;
-    right: 5%;
-    width: 25vw;
+    top: 35%;
+    right: 2%;
+    width: 20vw;
 }
 .graficos button{
     position: absolute;
     top: 80%;
-    right: 65%;
+    right: 49%;
     width: 10vw;
     height: 5vh;
     background-color: transparent;
@@ -270,6 +272,204 @@ main h2{
     font-size: 15px;
     font-weight: 400;
     color: white;
+    cursor: pointer;
+}
+.habilidades{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    right: 48%;
+    color: white;
+    width: 48.2vw;
+    height: 75.5vh;
+    background-color: blue;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+.habilidades:hover{
+    opacity: 0.5;
+}
+.borda_cima_H{
+    position: absolute;
+    top: 3%;
+    right: 83%;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    margin:1vh 0 0 1vw;
+    width: 6vw;
+    height: 8vh;
+}
+.borda_baixo_H{
+    position: absolute;
+    bottom: 3%;
+    left: 82%;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+    margin:1vh 0 0 1vw;
+    width: 6vw;
+    height: 8vh;
+}
+.habilidades h3{
+    position: absolute;
+    top: 10%;
+    right: 75%;
+    font-size: 40px;
+    width: 5vw;
+}
+.habilidades p{
+    position: absolute;
+    top: 43%;
+    right: 23%;
+    width: 30vw;
+    font-size: 25px;
+}
+.habilidades button{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+    width: 12vw;
+    height: 8vh;
+    background-color: transparent;
+    border: solid 2px white;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.nave{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    right: 3.2%;
+    color: white;
+    width: 22vw;
+    height: 37.7vh;
+    background-color: orange;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+.nave:hover{
+    opacity: 0.8;
+}
+.nave h3{
+    position: absolute;
+    top: 5%;
+    right: 22%;
+    font-size: 20px;
+    width: 15vw;
+}
+.nave p{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    width: 20vw;
+}
+.nave button{
+    position: absolute;
+    top: 80%;
+    right: 49%;
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: solid 2px white;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.multiplayer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 27.1%;
+    right: 25.7%;
+    color: white;
+    width: 22vw;
+    height: 37.7vh;
+    background-color: #8B8989;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+.multiplayer:hover{
+    opacity: 0.8;
+}
+.multiplayer h3{
+    position: absolute;
+    top: 5%;
+    right: 22%;
+    font-size: 20px;
+    width: 15vw;
+}
+.multiplayer p{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    width: 20vw;
+}
+.multiplayer button{
+    position: absolute;
+    top: 80%;
+    right: 49%;
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: solid 2px white;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.historia{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 27.1%;
+    right: 3.2%;
+    color: white;
+    width: 22vw;
+    height: 37.7vh;
+    background-color: #00CD00;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+.historia:hover{
+    opacity: 0.8;
+}
+.historia h3{
+    position: absolute;
+    top: 5%;
+    right: 39%;
+    font-size: 20px;
+    width: 10vw;
+}
+.historia p{
+    position: absolute;
+    top: 39%;
+    right: 2%;
+    width: 20vw;
+}
+.historia button{
+    position: absolute;
+    top: 80%;
+    right: 49%;
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: solid 2px white;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
 }
 @media only screen and (max-width: 600px){
     .fundo{
@@ -361,5 +561,174 @@ main h2{
     }
     span{
         font-size: 35px;
+    }
+    main{
+        height: 500vh;
+    }
+    main h2{
+        top: 2%;
+        right: 32%;
+    }
+    .poder{
+        top: 5%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .main_section{
+        top: 15%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .main_section img{
+        width:100%;
+        height: 100%;
+    }
+    .habilidades{
+        top: 5%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .habilidades h3{
+        top: 10%;
+        right: 80%;
+    }
+    .habilidades p{
+        top: 45%;
+        right: 25%;
+        width: 50vw;
+    }
+    .habilidades button{
+        top: 77%;
+        right: 57%;
+        width: 25vw;
+    }
+    .borda_cima_H{
+        top: 3%;
+        right: 80%;
+        width: 10vw;
+        height: 8vh;
+    }
+    .borda_baixo_H{
+        bottom: 5%;
+        width: 10vw;
+        height: 8vh;
+    }
+    .borda_cima{
+        top: 3%;
+        right: 80%;
+        width: 10vw;
+        height: 8vh;
+    }
+    .borda_baixo{
+        bottom: 5%;
+        left: 82%;
+        width: 10vw;
+        height: 8vh;
+    }
+    .graficos{
+        top: 15%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .graficos h3{
+        font-size: 40px;
+        top: 10%;
+        right: 80%;
+    }
+    .graficos p{
+        font-size: 25px;
+        top: 45%;
+        right: 0%;
+        width: 70vw;
+    }
+    .graficos button{
+        top: 79%;
+        right: 62%;
+        width: 25vw;
+        font-size: 25px;
+        width: 20vw;
+        height: 8vh;
+    }
+    .nave{
+        top: 25%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .nave h3{
+        font-size: 35px;
+        top: 10%;
+        right: 0%;
+        width: 70vw;
+    }
+    .nave p{
+        font-size: 25px;
+        top: 47%;
+        right: 0%;
+        width: 70vw;
+    }
+    .nave button{
+        top: 79%;
+        right: 62%;
+        width: 25vw;
+        font-size: 25px;
+        width: 20vw;
+        height: 8vh;
+    }
+    .multiplayer{
+        top: 35%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .multiplayer h3{
+        font-size: 35px;
+        top: 10%;
+        right: 0%;
+        width: 70vw;
+    }
+    .multiplayer p{
+        font-size: 25px;
+        top: 42%;
+        right: 0%;
+        width: 70vw;
+    }
+    .multiplayer button{
+        top: 79%;
+        right: 62%;
+        width: 25vw;
+        font-size: 25px;
+        width: 20vw;
+        height: 8vh;
+    }
+    .historia{
+        top: 45%;
+        right: 9%;
+        width: 80%;
+        height: 10%;
+    }
+    .historia h3{
+        font-size: 35px;
+        top: 10%;
+        right: 60%;
+        width: 20vw;
+    }
+    .historia p{
+        font-size: 25px;
+        top: 42%;
+        right: 0%;
+        width: 70vw;
+    }
+    .historia button{
+        top: 79%;
+        right: 62%;
+        width: 25vw;
+        font-size: 25px;
+        width: 20vw;
+        height: 8vh;
     }
 }
