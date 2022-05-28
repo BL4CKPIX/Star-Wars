@@ -181,7 +181,7 @@ main{
     position: absolute;
     background-color: #2D2D2D;
     width: 100%;
-    height: 250vh;
+    height: 310vh;
 }
 main h2{
     position: absolute;
@@ -388,7 +388,7 @@ main h2{
     justify-content: space-around;
     flex-direction: column;
     position: absolute;
-    top: 27.1%;
+    top: 24.2%;
     right: 25.7%;
     color: white;
     width: 22vw;
@@ -432,7 +432,7 @@ main h2{
     justify-content: space-around;
     flex-direction: column;
     position: absolute;
-    top: 27.1%;
+    top: 24.2%;
     right: 3.2%;
     color: white;
     width: 22vw;
@@ -470,6 +470,33 @@ main h2{
     font-weight: 400;
     color: white;
     cursor: pointer;
+}
+.hierarquia{
+    position: absolute;
+    top: 42%;
+    right: 3.5%;
+    width: 93%;
+}
+.lei{
+    position: absolute;
+    top: 81%;
+    text-align: end;
+    right: 3.5%;
+    width: 55%;
+    color: #ADADAD;
+}
+.como_jogar{
+    position: absolute;
+    top: 91%;
+    right: 40%;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+.capa_preta{
+    position: absolute;
+    top: 82%;
+    width: 35vw;
 }
 @media only screen and (max-width: 600px){
     .fundo{
@@ -563,7 +590,7 @@ main h2{
         font-size: 35px;
     }
     main{
-        height: 500vh;
+        height: 350vh;
     }
     main h2{
         top: 2%;
@@ -573,13 +600,13 @@ main h2{
         top: 5%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .main_section{
-        top: 15%;
+        top: 18%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .main_section img{
         width:100%;
@@ -589,7 +616,7 @@ main h2{
         top: 5%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .habilidades h3{
         top: 10%;
@@ -629,10 +656,10 @@ main h2{
         height: 8vh;
     }
     .graficos{
-        top: 15%;
+        top: 18%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .graficos h3{
         font-size: 40px;
@@ -654,10 +681,10 @@ main h2{
         height: 8vh;
     }
     .nave{
-        top: 25%;
+        top: 31%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .nave h3{
         font-size: 35px;
@@ -680,10 +707,10 @@ main h2{
         height: 8vh;
     }
     .multiplayer{
-        top: 35%;
+        top: 44%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .multiplayer h3{
         font-size: 35px;
@@ -706,10 +733,10 @@ main h2{
         height: 8vh;
     }
     .historia{
-        top: 45%;
+        top: 57%;
         right: 9%;
         width: 80%;
-        height: 10%;
+        height: 13%;
     }
     .historia h3{
         font-size: 35px;
@@ -730,5 +757,11 @@ main h2{
         font-size: 25px;
         width: 20vw;
         height: 8vh;
+    }
+    .hierarquia{
+        top: 75%;
+        right: 0%;
+        width: 100%;
+        height: 16%;
     }
 }
