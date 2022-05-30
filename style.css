@@ -41,7 +41,7 @@ header{
     width: 10vw;
 }
 .começe{
-    background-image: url('/img/img\ começe\ a\ jogar.png');
+    background-image: url('./img/img\ começe\ a\ jogar.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
