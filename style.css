@@ -498,6 +498,159 @@ main h2{
     top: 82%;
     width: 35vw;
 }
+footer{
+    position: absolute;
+    height: 30vh;
+    top: 558%;
+    width: 100%;
+}
+.download{
+    position: absolute;
+    top: 40%;
+    right: 48%;
+    width: 15vw;
+    height: 35vh;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.download h3{
+    position: absolute;
+    top: 5%;
+    font-size: 30px;
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+.download button{
+    position: absolute;
+    top: 35%;
+    background-color: black;
+    color: white;
+    width: 12vw;
+    height: 7vh;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+.download button:hover{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.download button:hover ~.linha1{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.download button:hover ~ h3{
+    font-weight: bold;
+}
+.download p{
+    position: absolute;
+    top: 60%;
+    width: 10vw;
+    font-size: 15px;
+}
+.linha1{
+    position: absolute;
+    top: 90%;
+    width: 5vw;
+    height: 3px;
+    background-color: black;
+    transition: ease-in-out 1s;
+}
+.escolher{
+    position: absolute;
+    top: 40%;
+    right: 28%;
+    width: 15vw;
+    height: 35vh;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.escolher button:hover{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.escolher button:hover ~ .linha1{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.escolher button:hover ~ h3{
+    font-weight: bold;
+}
+.escolher h3{
+    position: absolute;
+    top: 5%;
+    font-size: 30px;
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+.escolher button{
+    position: absolute;
+    top: 35%;
+    background-color: black;
+    color: white;
+    width: 12vw;
+    height: 7vh;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+.escolher p{
+    position: absolute;
+    top: 60%;
+    width: 6vw;
+    font-size: 15px;
+}
+.explorar{
+    position: absolute;
+    top: 40%;
+    right: 8%;
+    width: 15vw;
+    height: 35vh;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.explorar button:hover{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.explorar button:hover ~ .linha1{
+    box-shadow: inset 12vw 0 0 0 red;
+}
+.explorar button:hover ~ h3{
+    font-weight: bold;
+}
+.explorar h3{
+    position: absolute;
+    top: 5%;
+    font-size: 30px;
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+.explorar button{
+    position: absolute;
+    top: 35%;
+    background-color: black;
+    color: white;
+    width: 12vw;
+    height: 7vh;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+.explorar p{
+    position: absolute;
+    top: 60%;
+    width: 5vw;
+    text-align: center;
+    font-size: 15px;
+}
 @media only screen and (max-width: 600px){
     .fundo{
         width: 70vw;
