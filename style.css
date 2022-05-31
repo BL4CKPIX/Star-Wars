@@ -510,7 +510,6 @@ footer{
     right: 48%;
     width: 15vw;
     height: 35vh;
-    border: solid;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -531,7 +530,7 @@ footer{
     width: 12vw;
     height: 7vh;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
     cursor: pointer;
     transition: ease-in-out 1s;
 }
@@ -564,7 +563,6 @@ footer{
     right: 28%;
     width: 15vw;
     height: 35vh;
-    border: solid;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -594,7 +592,7 @@ footer{
     width: 12vw;
     height: 7vh;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
     cursor: pointer;
     transition: ease-in-out 1s;
 }
@@ -610,7 +608,6 @@ footer{
     right: 8%;
     width: 15vw;
     height: 35vh;
-    border: solid;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -640,7 +637,7 @@ footer{
     width: 12vw;
     height: 7vh;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
     cursor: pointer;
     transition: ease-in-out 1s;
 }
@@ -929,5 +926,77 @@ footer{
         top: 94%;
         right: 49%;
         width: 85%;
+    }
+    .download button:hover{
+        box-shadow: inset 30vw 0 0 0 red;
+    }
+    .download button:hover ~.linha1{
+        box-shadow: inset 15vw 0 0 0 red;
+    }
+    .linha1{
+        top: 80%;
+        width: 15vw;
+        height: 1vw;
+    }
+    .download{
+        top: 150%;
+        right: 20%;
+        width: 30vw;
+    }
+    .download h3{
+        font-size: 40px;
+    }
+    .download button{
+        width: 30vw;
+        font-size: 18px;
+    }
+    .download p{
+        width: 25vw;
+        font-size: 17px;
+    }
+    .escolher button:hover{
+        box-shadow: inset 30vw 0 0 0 red;
+    }
+    .escolher button:hover ~.linha1{
+        box-shadow: inset 15vw 0 0 0 red;
+    }
+    .escolher{
+        top: 250%;
+        right: 20%;
+        width: 30vw;
+    }
+    .escolher h3{
+        font-size: 40px;
+    }
+    .escolher button{
+        width: 30vw;
+        font-size: 18px;
+    }
+    .escolher p{
+        right: 7%;
+        width: 20vw;
+        font-size: 17px;
+    }
+    .explorar button:hover{
+        box-shadow: inset 30vw 0 0 0 red;
+    }
+    .explorar button:hover ~.linha1{
+        box-shadow: inset 15vw 0 0 0 red;
+    }
+    .explorar{
+        top: 350%;
+        right: 20%;
+        width: 30vw;
+    }
+    .explorar h3{
+        font-size: 40px;
+    }
+    .explorar button{
+        width: 30vw;
+        font-size: 18px;
+    }
+    .explorar p{
+        width: 15vw;
+        font-size: 17px;
     }
 }
