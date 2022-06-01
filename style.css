@@ -648,6 +648,79 @@ footer{
     text-align: center;
     font-size: 15px;
 }
+.final{
+    background-color: #FF5A56;
+    width: 65vw;
+    height: 95vh;
+    position: absolute;
+    top: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.final h3{
+    position: absolute;
+    top: 10%;
+    right: 55%;
+    font-size: 35px;
+}
+.final p{
+    position: absolute;
+    top: 23%;
+    right: 31%;
+    width: 31vw;
+}
+.play-store{
+    position: absolute;
+    top: 39%;
+    right: 61%;
+    width: 12vw;
+}
+.app-store{
+    position: absolute;
+    top: 39%;
+    right: 41%;
+    width: 12vw;
+}
+.linhazinha{
+    position: absolute;
+    top: 55%;
+    right: 41%;
+    width: 25vw;
+    height: 3px;
+    background-color: black;
+    opacity: 0.5;
+}
+.star-wars_icon{
+    position: absolute;
+    top: 65%;
+    right: 56%;
+    width: 15vw;
+}
+.final h6{
+    position: absolute;
+    top: 85%;
+    right: 35%;
+    text-align:left;
+    width: 28vw;
+    font-size: 15px;
+    font-weight: 400;
+}
+.darth_vader{
+    position: absolute;
+    top: 152%;
+    right: 5%;
+    width: 40vw;
+}
+legend{
+    position: absolute;
+    top: 480%;
+    right: 3%;
+    width: 28vw;
+    color: black;
+    font-size: 15px;
+}
 @media only screen and (max-width: 600px){
     .fundo{
         width: 70vw;
@@ -669,6 +742,15 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+    }
+    .começe h2{
+        font-size: 40px;
+        width: 30vw;
+    }
+    .começe p{
+        font-size: 22px;
+        width: 50vw;
+        text-align: left;
     }
     .começe button{
         width: 25vw;
@@ -917,6 +999,7 @@ footer{
     .lei{
         top: 92%;
         width: 79vw;
+        right: 5%;
     }
     .como_jogar{
         top: 96%;
@@ -998,5 +1081,58 @@ footer{
     .explorar p{
         width: 15vw;
         font-size: 17px;
+    }
+    .final{
+        top: 500%;
+        width: 100%;
+        height: 120vh;
+    }
+    .final h3{
+        font-size: 60px;
+        top: 5%;
+        right: 21%;
+    }
+    .final p{
+        top: 15%;
+        right: 12%;
+        width: 70vw;
+        font-size: 20px;
+    }
+    .play-store{
+        width: 30vw;
+        top: 30%;
+        right: 53%;
+    }
+    .app-store{
+        width: 30vw;
+        top: 30%;
+        right: 21%;
+    }
+    .linhazinha{
+        width: 62vw;
+        right: 21%;
+        top: 39%;
+    }
+    .star-wars_icon{
+        width: 40vw;
+        right: 32%;
+        top: 45%;
+    }
+    .final h6{
+        top: 62%;
+        right: 8%;
+        width: 75vw;
+        font-size: 20px;
+    }
+    .darth_vader{
+        top: 800%;
+        right: 20%;
+        width: 60vw;
+    }
+    legend{
+        top: 1010%;
+        right: 40%;
+        width: 50vw;
+        font-weight: 600;
     }
 }
